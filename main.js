@@ -66,7 +66,6 @@ let randomValueValue = randomPropValue[randomValueNumber];
 // Add this value For Catogery
 let catogory = document.querySelector(".category");
 catogory.textContent = `Word From: ${allKeys[randomPropNumber]}`;
-console.log(randomValueValue);
 
 // Convert Chosen Word To Array
 let lettersAndSpace = Array.from(randomValueValue);
@@ -164,3 +163,4 @@ function checkIfWordIsComplete() {
   document.body.appendChild(div);
   }
 }
+
